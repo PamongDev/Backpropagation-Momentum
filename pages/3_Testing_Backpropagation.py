@@ -62,7 +62,7 @@ with batikcap:
         if batik in path and str(arch_selectbc) in path and str(lr_selectbc) in path and str(momentum_selectbc) in path:
             path_select = path
             break
-    modelBatikcap.loadModel("model4/"+path)
+    modelBatikcap.loadModel("model_4/"+path)
     modelBatikcap.test(xtest,ytest)
     grafbatikcap = fc.grafPrediksi(modelBatikcap.arrayofY, ytest)
     
@@ -98,7 +98,7 @@ with batiktulis:
         if batik in path and str(arch_selectbt) in path and str(lr_selectbt) in path and str(momentum_selectbt) in path:
             path_select = path
             break
-    modelBatiktulis.loadModel("model4/"+path)
+    modelBatiktulis.loadModel("model_4/"+path)
     modelBatiktulis.test(xtest,ytest)
     grafbatiktulis = fc.grafPrediksi(modelBatiktulis.arrayofY, ytest)
 
@@ -135,7 +135,7 @@ with semitulis:
         if batik in path and str(arch_selectst) in path and str(lr_selectst) in path and str(momentum_selectst) in path:
             path_select = path
             break
-    modelsemitulis.loadModel("model4/"+path)
+    modelsemitulis.loadModel("model_4/"+path)
     modelsemitulis.test(xtest, ytest)
     grafsemitulis = fc.grafPrediksi(modelsemitulis.arrayofY, ytest)
 
@@ -173,7 +173,7 @@ with semiwarna:
         if batik in path and str(arch_selectsw) in path and str(lr_selectsw) in path and str(momentum_selectsw) in path:
             path_select = path
             break
-    modelsemiwarna.loadModel("model4/"+path)
+    modelsemiwarna.loadModel("model_4/"+path)
     modelsemiwarna.test(xtest, ytest)
     grafsemiwarna = fc.grafPrediksi(modelsemiwarna.arrayofY, ytest)
 
