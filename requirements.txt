@@ -4,5 +4,5 @@ pandas
 streamlit
 jsons == 1.6.3
 numpy
-math
+python-math
 
