@@ -1,8 +1,7 @@
 pillow
-streamlit
+matplotlib
+pandas
 json
 numpy
-matplotlib
 math
 random
-pandas
