@@ -11,7 +11,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 # dt = __import__('pages.1_Dataset_Batik')
 st.set_page_config('Training Backpropagation',layout='wide')
 st.title("Hasil Training Backpropagation Berbagai Skenario")
-model = os.listdir("model4")
+model = os.listdir("model_4")
 arch = [4,7,1], [6,6,1], [8,13,1]
 learning_rate = 0.2, 0.02, 0.002
 momentum = 0.6, 0.3, 0.9
