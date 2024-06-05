@@ -40,7 +40,7 @@ with batikcap:
         if batik in path and str(arch_selectbc) in path and str(lr_selectbc) in path and str(momentum_selectbc) in path:
             path_select = path
             break
-    modelBatikcap.loadModel("model4/"+path)
+    modelBatikcap.loadModel("model_4/"+path)
     grafbatikcap = modelBatikcap.graf()
     errbc = modelBatikcap.arrayError[-1]
     st.write(f"ARSITEKTUR : {arch_selectbc}")
@@ -66,7 +66,7 @@ with batiktulis:
         if batik in path and str(arch_selectbt) in path and str(lr_selectbt) in path and str(momentum_selectbt) in path:
             path_select = path
             break
-    modelBatiktulis.loadModel("model4/"+path)
+    modelBatiktulis.loadModel("model_4/"+path)
     grafbatiktulis = modelBatiktulis.graf()
     errbt = modelBatiktulis.arrayError[-1]
     #sview on streamlit
@@ -93,7 +93,7 @@ with semitulis:
         if batik in path and str(arch_selectst) in path and str(lr_selectst) in path and str(momentum_selectst) in path:
             path_select = path
             break
-    modelsemitulis.loadModel("model4/"+path)
+    modelsemitulis.loadModel("model_4/"+path)
     grafsemitulis = modelsemitulis.graf()
     errst = modelsemitulis.arrayError[-1]
     #sview on streamlit
@@ -121,7 +121,7 @@ with semiwarna:
         if batik in path and str(arch_selectsw) in path and str(lr_selectsw) in path and str(momentum_selectsw) in path:
             path_select = path
             break
-    modelsemiwarna.loadModel("model4/"+path)
+    modelsemiwarna.loadModel("model_4/"+path)
     grafsemiwarna = modelsemiwarna.graf()
     errsw = modelsemiwarna.arrayError[-1]
     #sview on streamlit
