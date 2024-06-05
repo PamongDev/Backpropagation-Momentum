@@ -2,7 +2,7 @@ pillow
 matplotlib
 pandas
 streamlit
-json : '2.0.9'
+json == '2.0.9'
 numpy
 math
-random
+
