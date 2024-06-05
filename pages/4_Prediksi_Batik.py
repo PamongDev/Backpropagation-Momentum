@@ -26,7 +26,7 @@ def Conv(batik, arch):
     xtrain, ytrain, xtest, ytest = fc.dataSplitting(dataproses ,0.7)
     return xtrain, ytrain, xtest, ytest 
 
-model = os.listdir("training")
+model = os.listdir("model_4")
 arch = [4,7,1], [6,6,1], [8,13,1]
 learning_rate = 0.2, 0.02, 0.002
 momentum = 0.6, 0.3, 0.9
