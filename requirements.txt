@@ -2,7 +2,7 @@ pillow
 matplotlib
 pandas
 streamlit
-jsons == '2.0.9'
+jsons == '1.6.3'
 numpy
 math
 
