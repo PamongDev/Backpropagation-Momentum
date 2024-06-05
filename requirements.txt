@@ -1,7 +1,7 @@
 pillow
 matplotlib
 pandas
-json
+json = '2.0.9'
 numpy
 math
 random
