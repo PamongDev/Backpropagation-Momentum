@@ -1,7 +1,4 @@
 # Backpropagation-Momentum
-Berikut adalah deskripsi untuk README pada repository GitHub Anda:
-
----
 
 # Prediksi Produksi Data Batik (2001-2020)
 
@@ -42,11 +39,21 @@ Pemodelan dilakukan secara terpisah untuk setiap jenis batik. Sebelum memulai pe
 
 Hasil dari prediksi untuk masing-masing jenis batik akan dianalisis dan dibandingkan untuk menentukan akurasi model dalam memprediksi produksi pada hari ke-h.
 
+## Requirements
+
+- pillow
+- matplotlib
+- pandas
+- streamlit
+- jsons == 1.6.3
+- numpy
+- python-math
+
 ## Penggunaan
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/PamongDev/Backpropagation-Momentum.git
    ```
 2. Install dependencies yang diperlukan:
    ```bash
@@ -54,7 +61,7 @@ Hasil dari prediksi untuk masing-masing jenis batik akan dianalisis dan dibandin
    ```
 3. Jalankan script pemodelan:
    ```bash
-   python modeling_script.py
+   streamlit run Homepage.py
    ```
 
 ## Kontribusi
