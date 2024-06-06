@@ -72,6 +72,3 @@ Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini, buat
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
----
-
-Dengan deskripsi ini, README Anda akan memberikan panduan yang jelas dan informatif kepada pengguna atau pengembang lain yang tertarik dengan proyek Anda.
